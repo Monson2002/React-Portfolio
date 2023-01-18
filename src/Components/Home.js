@@ -14,6 +14,8 @@ export default function Home() {
         }
     }
 
+
+
     return (
         <>
             <main className='home h-screen w-screen bg-gray-800 flex flex-col justify-between items-center'>

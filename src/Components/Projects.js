@@ -5,9 +5,9 @@ export default function Projects() {
 
     return (
         <>
-            <main className='projects w-screen bg-gray-800 flex flex-col justify-evenly items-center'>
+            <main className='projects w-screen bg-gray-800 flex flex-col justify-evenly items-center' id='projects'>
                 <section className='m-2 w-11/12'>
-                    <h1 className='p-2 my-4 mb-8 text-gray-300 font-CustomFont1 text-2xl underline underline-offset-4 decoration-pink-500 text-center'>Projects</h1>
+                    <h1 className='p-2 my-8 text-gray-300 font-CustomFont1 text-2xl underline underline-offset-4 decoration-pink-500 text-center'>Projects</h1>
                     <section className='cards flex flex-col justify-center items-center md:grid md:grid-cols-2'>
 
                         <div className="sticky card w-11/12 h-auto bg-base-100 shadow-xl image-full">

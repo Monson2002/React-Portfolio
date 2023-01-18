@@ -14,30 +14,37 @@ export default function Home() {
         }
     }
 
-
-
     return (
         <>
-            <main className='home h-screen w-screen bg-gray-800 flex flex-col justify-between items-center'>
-                <div className='navbar-toggle flex justify-between items-center w-11/12 m-2'>
-                    <div className='logo'>
-
+            <main className='home h-screen w-screen bg-gray-800 flex flex-col justify-between items-center' id='home'>
+                <div className='navbar-toggle fixed flex justify-between items-center w-full p-2 bg-gray-800 z-10'>
+                    <div className='logo flex justify-center items-center'>
+                        <a href="https://www.linkedin.com/in/monson-reji-verghese-a26061231/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin text-slate-300 scale-150 p-2"></i>
+                        </a>
+                        <a href="https://github.com/Monson2002" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-square-github text-slate-300 scale-150 p-2"></i>
+                        </a>
                     </div>
                     <div>
                         <i onClick={toggleNavbar} className="fa-solid fa-bars text-slate-300"></i>
                         {navBar ?
                             (<div className='dropdown'>
                                 <ul className="absolute m-3 mt-4 left-0 w-11/12 bg-slate-900 text-gray-300 flex flex-col justify-start items-center p-2 sm:p-3 rounded-lg">
-                                    <li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}>Home</li>
-                                    <li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}> About</li>
-                                    <li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}> Projects</li>
-                                    <li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}> Contact</li>
+                                    <a href="#home"><li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}>Home</li></a>
+                                    <a href="#about"><li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}>About</li></a>
+                                    <a href="#projects"><li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}> Projects</li></a>
+                                    <a href="#contact-us"><li className="p-2 m-1 w-auto text-lg font-normal active:bg-slate-800 active:text-slate-100" onClick={toggleNavbar}> Contact</li></a>
                                 </ul>
                             </div>)
                             :
                             null
                         }
                     </div>
+                </div>
+
+                <div className='start'>
+                    {/* Dummy div for nertical alignment */}
                 </div>
 
                 <div className=' container p-2'>
@@ -81,8 +88,9 @@ export default function Home() {
                         </button>
                     </div>
                 </div>
-                <div>
 
+                <div className='end'>
+                    {/* Dummy div for nertical alignment */}
                 </div>
             </main>
         </>

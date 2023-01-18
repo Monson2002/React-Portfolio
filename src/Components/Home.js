@@ -50,6 +50,8 @@ export default function Home() {
                     <div className="text-container text-gray-300 text-lg font-normal p-1">
                         <TypeAnimation
                             sequence={[
+                                'React',
+                                1500, // Waits 2s
                                 'Python',
                                 1500, // Waits 2s
                                 'Java', // 

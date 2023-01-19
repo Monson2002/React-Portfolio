@@ -2,7 +2,14 @@
 
 html{
     scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 .underline {
     text-decoration-color: red;

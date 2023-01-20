@@ -20,10 +20,10 @@ export default function Home() {
                 <div className='navbar-toggle fixed flex justify-between items-center w-full p-2 bg-gray-700 z-10'>
                     <div className='logo flex justify-center items-center'>
                         <a href="https://www.linkedin.com/in/monson-reji-verghese-a26061231/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-linkedin text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
+                            <i className="fa-brands fa-linkedin text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
                         </a>
                         <a href="https://github.com/Monson2002" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-square-github text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
+                            <i className="fa-brands fa-square-github text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
                         </a>
                     </div>
 

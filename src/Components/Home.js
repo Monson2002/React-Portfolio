@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState , useEffect } from 'react';
+import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
@@ -72,7 +72,7 @@ export default function Home() {
                                         <i className="fa-solid fa-briefcase m-auto p-2 w-auto "></i>
                                         <li className="p-2 w-auto text-lg font-normal">Projects</li>
                                     </a>
-                                    <a href="#contacy-us" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
+                                    <a href="#contact-us" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
                                         <i className="fa-solid fa-phone m-auto p-2 w-auto "></i>
                                         <li className="p-2 w-auto text-lg font-normal">Contact</li>
                                     </a>

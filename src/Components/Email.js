@@ -31,18 +31,18 @@ export default function ContactUs() {
         );
     }
 
-    const error = () => {
-        toast.error('An error ocurred!', {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: false,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",
-        });
-    }
+    // const error = () => {
+    //     toast.error('An error ocurred!', {
+    //         position: "top-right",
+    //         autoClose: 3000,
+    //         hideProgressBar: false,
+    //         closeOnClick: true,
+    //         pauseOnHover: false,
+    //         draggable: true,
+    //         progress: undefined,
+    //         theme: "dark",
+    //     });
+    // }
 
     return (
         <form ref={form} onSubmit={sendEmail} className='flex flex-col justify-center items-center'>

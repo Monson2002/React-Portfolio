@@ -13,7 +13,7 @@ export default function ContactUs() {
             .then((result) => {
                 notify();
             }, (error) => {
-                error();
+                console.log("ERROR !!!");
             });
     };
 

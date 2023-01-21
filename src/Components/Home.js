@@ -61,20 +61,20 @@ export default function Home() {
                             (<div className='dropdown'>
                                 <ul className="absolute m-3 mt-4 left-0 w-11/12 bg-slate-900 text-gray-300 flex flex-col justify-start items-center p-2 sm:p-3 rounded-lg">
                                     <a href="#home" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
-                                        <i className="fa-solid fa-house m-auto p-2 w-auto "></i>
-                                        <li className="p-2 w-auto text-lg font-normal">Home</li>
+                                        <i className="fa-solid fa-house m-auto p-2 w-auto " onClick={toggleNavbar}></i>
+                                        <li className="p-2 w-auto text-lg font-normal" onClick={toggleNavbar}>Home</li>
                                     </a>
                                     <a href="#about" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
-                                        <i className="fa-solid fa-user m-auto p-2 w-auto "></i>
-                                        <li className="p-2 w-auto text-lg font-normal">About</li>
+                                        <i className="fa-solid fa-user m-auto p-2 w-auto " onClick={toggleNavbar}></i>
+                                        <li className="p-2 w-auto text-lg font-normal" onClick={toggleNavbar}>About</li>
                                     </a>
                                     <a href="#projects" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
-                                        <i className="fa-solid fa-briefcase m-auto p-2 w-auto "></i>
-                                        <li className="p-2 w-auto text-lg font-normal">Projects</li>
+                                        <i className="fa-solid fa-briefcase m-auto p-2 w-auto " onClick={toggleNavbar}></i>
+                                        <li className="p-2 w-auto text-lg font-normal" onClick={toggleNavbar}>Projects</li>
                                     </a>
                                     <a href="#contact-us" className='flex hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100'>
-                                        <i className="fa-solid fa-phone m-auto p-2 w-auto "></i>
-                                        <li className="p-2 w-auto text-lg font-normal">Contact</li>
+                                        <i className="fa-solid fa-phone m-auto p-2 w-auto " onClick={toggleNavbar}></i>
+                                        <li className="p-2 w-auto text-lg font-normal" onClick={toggleNavbar}>Contact</li>
                                     </a>
                                 </ul>
                             </div>)

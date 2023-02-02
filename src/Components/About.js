@@ -4,7 +4,7 @@ export default function About() {
 
     return (
         <>
-            <main className='about w-screen bg-gray-700 flex flex-col justify-evenly items-center' id='about'>
+            <main className='about w-screen bg-gray-900 flex flex-col justify-evenly items-center' id='about'>
                 <section className='about-me flex flex-col justify-center items-center w-11/12'>
                     <h1 className='p-2 sm:p-4 my-8 sm:my-12 lg:my-16 text-gray-300 font-CustomFont1 text-2xl sm:text-3xl lg:text-4xl underline underline-offset-4 decoration-pink-500 text-center'>About Me</h1>
                     <div className='sm:flex sm:flex-col lg:flex-row-reverse sm:justify-center sm:items-center'>

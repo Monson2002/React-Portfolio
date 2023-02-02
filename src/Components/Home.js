@@ -55,6 +55,10 @@ export default function Home() {
                         </div>
                     </div>
 
+                    <div className="dummy hidden lg:block">
+                        {/* Dummy div for lg screens */}
+                    </div>
+
                     <div className='md:hidden'>
                         <i onClick={toggleNavbar} className="fa-solid fa-bars text-slate-300 sm:scale-150 p-2"></i>
                         {navBar ?

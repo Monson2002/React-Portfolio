@@ -29,7 +29,7 @@ export default function Home() {
 
     return (
         <>
-            <main className='home h-screen w-screen bg-gray-800 flex flex-col justify-between items-center' id='home'>
+            <main className='home h-screen w-screen bg-gray-800 bg-cover bg-fixed flex flex-col justify-between items-center' id='home'>
                 <div className={`navbar-toggle fixed flex justify-between items-center w-full p-2 bg-gray-700 z-10`}>
                     <div className='logo flex justify-center items-center'>
                         <a href="https://www.linkedin.com/in/monson-reji-verghese-a26061231/" target="_blank" rel="noopener noreferrer">

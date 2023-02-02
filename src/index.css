@@ -10,6 +10,9 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.home{
+    background-image: url("/public/images/bg2.jpg");
+}
 
 .underline {
     text-decoration-color: red;

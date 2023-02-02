@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function About() {
 
-
-
     return (
         <>
             <main className='about w-screen bg-gray-700 flex flex-col justify-evenly items-center' id='about'>

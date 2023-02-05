@@ -14,19 +14,6 @@ export default function Home() {
         }
     }
 
-    // const [navColor, setnavColor] = useState("bg-gray-700");
-    // const listenScrollEvent = () => {
-    //     window.scrollY > 619 && window.scrollY < 1837 ? setnavColor("bg-gray-800") : setnavColor("bg-gray-700");
-    //     window.scrollY > 1837 ? setnavColor("bg-gray-700") : setnavColor("bg-gray-800");
-    //     // window.scrollY > 619 ? setnavColor("bg-gray-800") : setnavColor("bg-gray-700");
-    // };
-    // useEffect(() => {
-    //     window.addEventListener("scroll", listenScrollEvent);
-    //     return () => {
-    //         window.removeEventListener("scroll", listenScrollEvent);
-    //     };
-    // }, []);
-
     return (
         <>
             <main className='home h-screen w-screen bg-cover bg-fixed flex flex-col justify-between items-center' id='home'>
@@ -53,10 +40,6 @@ export default function Home() {
                                 {/* <li className="p-2 m-1 w-auto text-lg font-normal hover:text-slate-400 hover:underline hover:underline-offset-4 hover:decoration-pink-500 active:bg-slate-800 active:text-slate-100"> Contact</li> */}
                             </ul>
                         </div>
-                    </div>
-
-                    <div className="dummy hidden lg:block">
-                        {/* Dummy div for lg screens */}
                     </div>
 
                     <div className='md:hidden'>
@@ -121,9 +104,6 @@ export default function Home() {
                             cursor={true}
                             repeat={Infinity}
                         />
-                    </div>
-                    <div className="text-container text-red-300 text-xs sm:text-sm lg:text-base font-normal sm:font-medium p-1 sm:py-2">
-                        I am an aspiring web-developer currently studying Computer Science.
                     </div>
                     <div className='flex items-center justify-center lg:mt-4'>
                         <button onClick={()=>{window.open("https://drive.google.com/file/d/1wZVIXfN10-4ZKQ6yfRfCW6Y9KAM6M-d7/view");}} className="w-auto m-2 sm:m-4 p-1 py-2 sm:py-3 font-medium text-gray-900 rounded-lg group bg-transparent border hover:text-white dark:text-white">

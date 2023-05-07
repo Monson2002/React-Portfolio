@@ -106,7 +106,7 @@ export default function Home() {
                         />
                     </div>
                     <div className='flex items-center justify-center lg:mt-4'>
-                        <button onClick={()=>{window.open("https://drive.google.com/file/d/1wZVIXfN10-4ZKQ6yfRfCW6Y9KAM6M-d7/view?usp=share_link");}} className="w-auto m-2 sm:m-4 p-1 py-2 sm:py-3 font-medium text-gray-900 rounded-lg group bg-transparent border hover:text-white dark:text-white">
+                        <button onClick={()=>{window.open("https://drive.google.com/file/d/1O6Yk1IeLz88bKuy4L33tu9VyDO4M1Cu2/view?usp=sharing");}} className="w-auto m-2 sm:m-4 p-1 py-2 sm:py-3 font-medium text-gray-900 rounded-lg group bg-transparent border hover:text-white dark:text-white">
                             <span className="p-1 sm:py-2  text-sm sm:text-base lg:text-lg transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                                 Resume
                             </span>

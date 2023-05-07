@@ -19,7 +19,7 @@ export default function Home() {
             <main className='home h-screen w-screen bg-cover bg-fixed flex flex-col justify-between items-center' id='home'>
                 <div className={`navbar-toggle fixed flex justify-between items-center w-full p-2 bg-gray-800 z-10`}>
                     <div className='logo flex justify-center items-center'>
-                        <a href="https://www.linkedin.com/in/monson-reji-verghese-a26061231/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/monson-verghese-a26061231/" target="_blank" rel="noopener noreferrer">
                             <i className="fa-brands fa-linkedin text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
                         </a>
                         <a href="https://github.com/Monson2002" target="_blank" rel="noopener noreferrer">

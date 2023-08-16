@@ -89,7 +89,9 @@ export default function Home() {
                                 1500, // Waits 1.5s
                                 'Python',
                                 1500, // Waits 1.5s
-                                'Java', // 
+                                'Data Analysis',
+                                1500, // Waits 1.5s
+                                'Node JS', // 
                                 1500, // Waits 1.5s
                                 'JavaScript',
                                 1500, // Waits 1.5s

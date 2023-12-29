@@ -25,6 +25,9 @@ export default function Home() {
                         <a href="https://github.com/Monson2002" target="_blank" rel="noopener noreferrer">
                             <i className="fa-brands fa-square-github text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
                         </a>
+                        <a href="https://twitter.com/monson2002" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-square-x-twitter text-slate-300 active:text-slate-400 scale-150 sm:scale-[200%] lg:scale-[300%] m-2 sm:m-3 lg:m-6 hover:text-slate-400 hover:rotate-360 transition-all duration-1000"></i>
+                        </a>
                     </div>
 
                     <div className='dropdown-md hidden md:flex'>

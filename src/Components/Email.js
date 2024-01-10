@@ -4,32 +4,32 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactUs() {
-    const form = useRef();
+    // const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
 
-        emailjs.sendForm('service_lef73im', 'template_egv0j3i', form.current, 'Rq-fOAWy3sRr_-CLR')
-            .then((result) => {
-                notify();
-            }, (error) => {
-                console.log("ERROR !!!");
-            });
-    };
+    //     emailjs.sendForm('service_lef73im', 'template_yx0mabj', form.current, 'Rq-fOAWy3sRr_-CLR')
+    //         .then((result) => {
+    //             notify();
+    //         }, (error) => {
+    //             console.log("ERROR !!!");
+    //         });
+    // };
 
-    const notify = () => {
-        toast.success('Mail sent successfully!', {
-                position: "top-right",
-                autoClose: 3000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: false,
-                draggable: true,
-                progress: undefined,
-                theme: "dark",
-            }
-        );
-    }
+    // const notify = () => {
+    //     toast.success('Mail sent successfully!', {
+    //             position: "top-right",
+    //             autoClose: 3000,
+    //             hideProgressBar: false,
+    //             closeOnClick: true,
+    //             pauseOnHover: false,
+    //             draggable: true,
+    //             progress: undefined,
+    //             theme: "dark",
+    //         }
+    //     );
+    // }
 
     // const error = () => {
     //     toast.error('An error ocurred!', {
